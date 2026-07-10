@@ -192,3 +192,156 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
+
+
+/* ==============================
+    Pricing Section Styling
+================================= */
+.pricing-section{
+    padding: 40px 0 40px;
+}
+
+.pricing-wrapper{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pricing-wrapper > h2{
+    font-size: 48px;
+    font-weight: 700;
+     color: #000102;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.pricing-wrapper > p{
+    font-size: 16px;
+    color: #575757;
+    font-weight: 400;
+}
+
+.pricing-card-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.pricing-card{
+    padding: 30px 24px 30px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 350px;
+}
+
+.pricing-package{
+    border-bottom: 1px solid #E5E7EB;
+    padding-bottom: 25px;
+}
+
+.pricing-package > small{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.pricing-package > h3{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0D1B2A;
+    line-height: 50px;
+    padding: 5px 0px;
+}
+
+.pricing-package > p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+    line-height: 24px;
+}
+
+.pricing-details{
+    padding: 25px 0 15px;
+}
+
+.pricing-details > ul > li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.pricing-details > ul > li > span {
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #60A5FA;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.pricing-details > ul > li{
+    color: #333333;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.pricing-button > a > button{
+    width: 100%;
+    height: 48px;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.pricing-button > a > button:hover{
+    background-color: #2563EB;
+    color: #ffffff;
+}
+
+.standard-bg{
+    background-color: #ffffff;
+}
+
+.pro-bg{
+    background-color: #0D1B2A;
+}
+
+.pricing-card.active-pricing > .pricing-package > small{
+    color: #93C5FD;
+}
+
+.pricing-card.active-pricing > .pricing-package > h3{
+    color: #ffffff;
+}
+
+.pricing-card.active-pricing >
+.pricing-package{
+    border-bottom: 1px solid #e5e7eb3f;
+}
+
+.pricing-card.active-pricing > .pricing-details > ul > li{
+    color: #ffffff91;
+}
+
+.pricing-button.active-poricing-button > a > button{
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.pricing-button.active-poricing-button > a > button:hover{
+    background-color: #0e44b9;
+}
+
+.team-bg{
+    background-color: #F8F9FB;
+}
